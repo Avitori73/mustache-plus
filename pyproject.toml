@@ -1,0 +1,20 @@
+[project]
+name = "mustache-plus"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chevron>=0.14.0",
+    "pydantic>=2.11.6",
+    "pyyaml>=6.0.2",
+    "questionary>=2.1.0",
+    "restrictedpython>=8.0",
+    "rich>=14.0.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project.scripts]
+msh = "msh.main:main"
