@@ -27,7 +27,6 @@ class SafeExecutor:
     """安全的函数执行器"""
 
     @staticmethod
-    @validate_arguments
     def execute(
         func: Callable,
         params: List[Any] = [],

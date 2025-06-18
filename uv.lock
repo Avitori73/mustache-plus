@@ -52,6 +52,7 @@ dependencies = [
     { name = "questionary" },
     { name = "restrictedpython" },
     { name = "rich" },
+    { name = "stringcase" },
 ]
 
 [package.metadata]
@@ -62,6 +63,7 @@ requires-dist = [
     { name = "questionary", specifier = ">=2.1.0" },
     { name = "restrictedpython", specifier = ">=8.0" },
     { name = "rich", specifier = ">=14.0.0" },
+    { name = "stringcase", specifier = ">=1.2.0" },
 ]
 
 [[package]]
@@ -233,6 +235,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/a1/53/830aa4c3066a8ab0a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/0d/9b/63f4c7ebc259242c89b3acafdb37b41d1185c07ff0011164674e9076b491/rich-14.0.0-py3-none-any.whl", hash = "sha256:1c9491e1951aac09caffd42f448ee3d04e58923ffe14993f6e83068dc395d7e0", size = 243229, upload-time = "2025-03-30T14:15:12.283Z" },
 ]
+
+[[package]]
+name = "stringcase"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f3/1f/1241aa3d66e8dc1612427b17885f5fcd9c9ee3079fc0d28e9a3aeeb36fa3/stringcase-1.2.0.tar.gz", hash = "sha256:48a06980661908efe8d9d34eab2b6c13aefa2163b3ced26972902e3bdfd87008", size = 2958, upload-time = "2017-08-06T01:40:57.021Z" }
 
 [[package]]
 name = "typing-extensions"

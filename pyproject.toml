@@ -1,6 +1,6 @@
 [project]
 name = "mustache-plus"
-version = "0.1.0"
+version = "0.2.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -11,6 +11,7 @@ dependencies = [
     "questionary>=2.1.0",
     "restrictedpython>=8.0",
     "rich>=14.0.0",
+    "stringcase>=1.2.0",
 ]
 
 [tool.setuptools]
