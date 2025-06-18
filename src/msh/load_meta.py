@@ -20,7 +20,7 @@ def try_load_yaml(file_path: str) -> Optional[TemplateMeta]:
     If the file does not exist or is not a valid YAML, returns None.
     """
     try:
-        with open(file_path, "r") as file:
+        with open(file_path, "r", encoding="utf-8") as file:
             data = yaml.safe_load(file)
             meta = TemplateMeta(**data)
             return meta
